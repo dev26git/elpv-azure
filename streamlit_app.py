@@ -7,7 +7,7 @@ import os
 import tensorflow as tf
 
 # Load model
-model = tf.keras.models.load_model('resources/models/trained_cnn.h5')
+model = tf.keras.models.load_model('resources/models/trained_cnn.keras')
 SAMPLE_IMAGES_FOLDER = "image_repo/Panel_Images"
 
 
